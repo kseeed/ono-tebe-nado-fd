@@ -1,1 +1,1 @@
-git@github.com:kseeed/ono-tebe-nado-fd.git
+https://github.com/kseeed/ono-tebe-nado-fd
