@@ -10,19 +10,42 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header>
-      <nav></nav>
-      <a></a>
-      <address></address>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__link_active header__links-list-item_no-bullit">
+            <a class="header__link">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo">
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип проекта" />
+      </a>
+      <address class="address header__address">
+          <a class="contact__info contact__info-nowrap" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="contact__info contact__info-nowrap" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <a class="contact__info">наб. Принсенграхт 263- 265, Амстердам</a>
+      </address>
     </header>
     <main>
-      <div class="cover">
-        <h1></h1>
-        <div class="description">
-          <p></p>
-          <button></button>
+      <section class="cover">
+        <div class="overlay"></div>
+          <h1 class="cover__title">
+            <span class="aligned-text aligned-text_left">ОНО</span>
+            <span class="aligned-text aligned-text_center">ТЕБЕ</span>
+            <span class="aligned-text aligned-text_right">НАДО</span>
+          </h1>
+         <div class="description cover__description">
+          <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
+          <button class="bet-button"></button>
         </div>
-      </div>
+      </section>
       <section class="lots">
         <h2></h2>
         <ul>
@@ -51,7 +74,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <address></address>
       <nav></nav>
       <a></a>

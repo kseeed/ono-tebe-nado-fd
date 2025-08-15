@@ -1,1 +1,137 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
+}
+
+.header__logo {
+    display: block;
+    min-content: 100%;
+
+}
+
+.header__logo-image {
+    
+}
+
+.header__links-list {
+    display: flex;
+    gap: 25px;
+    list-style: circle;
+}
+
+.header__links-list-item {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.header__link_active .header__link {
+    text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+
+.header__address {
+
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 210px;
+    justify-self: end;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px;
+}
+.contact__info {
+ /* 135% */
+}
+
+.contact__info-nowrap {
+    white-space: nowrap;
+}
+
+/* секция cover*/
+
+.cover {
+    background-image: url("../images/cover.jpg");
+    min-height: 757px;
+    padding: 165px 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0.6;
+    background: #000;
+    width: auto;
+    height: auto;
+    inset: 0;
+    z-index: -1;
+}
+
+.cover__title {
+    color: #FFF;
+    font-family: Raleway, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    z-index: 1;
+    
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text_left {
+    text-align: left;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.cover__description {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cover__description-text {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    text-transform: uppercase;
+    word-spacing: 25px;
+    margin-top: 118px;
+}
+
+.bet-button {}
