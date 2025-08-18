@@ -7,7 +7,7 @@
 
 .header__logo {
     display: block;
-    width: 148px;
+    width: 138px;
 }
 
 .header__logo-image {
@@ -16,7 +16,7 @@
 
 .header__links-list {
     display: flex;
-    gap: 25px;
+    gap: 32px;
     list-style: circle;
 }
 
@@ -51,6 +51,7 @@
 
 .header__address {
     justify-self: end;
+    margin-right: 24px;
 }
 
 .contact__info-nowrap {
@@ -90,22 +91,26 @@
     letter-spacing: 30px;
     text-transform: uppercase;
     z-index: 1;
+            
 }
 
 .aligned-text {
     display: block;
+    margin-right: -30px
 }
 
 .aligned-text_left {
-    text-align: left;
+    text-align: left;    
 }
 
 .aligned-text_center {
     text-align: center;
+    padding-top: 40px;    
 }
 
 .aligned-text_right {
     text-align: right;
+    padding-top: 20px;
 }
 
 .cover__description {
@@ -123,8 +128,7 @@
     font-weight: 400;
     line-height: 28px; /* 127.273% */
     text-transform: uppercase;
-    word-spacing: 19px;
-    
+    word-spacing: 20px;    
 }
 
 .bet-button {
@@ -140,7 +144,7 @@
     border: 1px solid #FFF;
     width: 256px;
     height: 51px;
-    margin-top: 106px;
+    margin-top: 63px;
 }
 
 /* секция lots */
@@ -157,7 +161,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-left: 43px;
+    margin-left: 40px;
     margin-bottom: 26px;
 }
 
