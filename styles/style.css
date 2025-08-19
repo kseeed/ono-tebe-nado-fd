@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 96px;
+    padding: 92px 50px 92px;
 }
 
 .header__logo {
@@ -16,7 +16,8 @@
 
 .header__links-list {
     display: flex;
-    gap: 32px;
+    justify-self: flex-start;
+    gap: 30px;
     list-style: circle;
 }
 
@@ -88,7 +89,7 @@
 }
 
 .cover__title {
-    padding: 165px 50px 0;
+    padding: 162px 50px 0;
     color: #FFF;
     font-family: 'Raleway', sans-serif;
     font-size: 100px;
@@ -123,7 +124,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 42px;
+    padding: 42px 50px;
 }
 
 .cover__description-text {
@@ -134,7 +135,7 @@
     font-weight: 400;
     line-height: 1.75rem;
     text-transform: uppercase;
-    word-spacing: 20px;
+    word-spacing: 18px;
 }
 
 .bet-button {
@@ -148,8 +149,8 @@
     background-color: transparent;
     border: 1px solid #FFF;
     width: 256px;
-    height: 51px;
-    margin-top: 63px;
+    height: 50px;
+    margin-top: 66px;
 }
 
 /* секция lots */
@@ -293,26 +294,26 @@
 /* секция footer */
 
 .footer {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 82px;
+    padding: 0 50px 82px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     justify-items: center;
 }
 
 .footer__address {
     justify-self: start;
+    
 }
 
 .footer__contact__info {
     min-width: 260px;
+    padding-top: 7px;
 }
 
 .footer__menu-list {
-    list-style: none;
+    list-style: none;   
 }
 
 .footer__menu-list-item {
@@ -321,8 +322,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    
+    font-weight: 400;    
 }
 
 .footer__menu-link {
