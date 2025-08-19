@@ -26,7 +26,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;    
+    font-weight: 400;
 }
 
 .header__link {
@@ -164,7 +164,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     font-style: normal;
-    font-weight: 700;    
+    font-weight: 700;
     text-transform: uppercase;
     margin-left: 40px;
     margin-bottom: 26px;
@@ -172,7 +172,7 @@
 
 .lots__card-list {
     list-style: none;
-    display: flex;    
+    display: flex;
     flex-wrap: wrap;
     gap: 25px;
     margin-bottom: 30px;
@@ -235,7 +235,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;    
+    font-weight: 400;
     text-decoration: underline;
     margin-left: 40px;
 }
@@ -313,7 +313,7 @@
 }
 
 .footer__menu-list {
-    list-style: none;   
+    list-style: none;
 }
 
 .footer__menu-list-item {
@@ -322,7 +322,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;    
+    font-weight: 400;
 }
 
 .footer__menu-link {
@@ -336,7 +336,7 @@
 
 .footer__social-list {
     list-style: none;
-    display: flex;    
+    display: flex;
     justify-self: end;
     gap: 48px;
 }
